@@ -49,5 +49,10 @@ Also dies sind meine folgende Werte.
 
 #### VM angepasst ####
 
-Ich habe auf der VM die maxmimale Anzahle von Processors eingestellt, nähmlich 8 Processoren.
-[](processor.png)
+**Processoren & RAM**
+
+Ich habe auf der VM die maxmimale Anzahle von Processors udn RAM eingestellt, nähmlich 8 Processoren und 16384MB. Und das VM kann nicht wirklich gestartet werden. Also hier ist ein Bild von der Einschränkung von Processoren & RAM.
+![](Einschränkung RAM&Processor.png)
+
+
+
