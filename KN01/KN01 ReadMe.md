@@ -28,8 +28,8 @@ Der Hauptunterschied liegt and der Architektur der beiden Hypervisoren.
 
 |  Merkmal  |  Typ 1  |  Typ 2  |
 | ------------- |:-------------:| -----:|
-|Installation      | physischen Hardware | Host-Betriebssystem |
-|Betriebssystem      |funktioniert wie ein eigenes Betriebssystem und verwaltet Ressourcen direkt.|Benötigt Host-Betriebssystem, das als Zwischenschicht dient.|
+| Installation | physischen Hardware | Host-Betriebssystem |
+| Betriebssystem |funktioniert wie ein eigenes Betriebssystem und verwaltet Ressourcen direkt.|Benötigt Host-Betriebssystem, das als Zwischenschicht dient.|
 | Sicherheit | Höher | Tiefer |
 | Verwaltung | Komplexer | Einfacher |
 
@@ -42,4 +42,12 @@ Gruppenarbeit: *Lynn Ruchti*
 Ich vermute mal das mein System von Typ 1 ist. Dies ist jegedlich eine Vermutung und bin mir ziemlich unsicher. Aber da ich ein Macbook habe, denke ich es würde Sinn machen das es von Typ 1 ist.
 
 #### Meine Vermutung testen ####
+Also dies sind meine folgende Werte.
 
+*Total Numbers of Cores/Processors:* 8 (4 performance and 4 efficiency)
+*RAM/Memory:* 16GB
+
+#### VM angepasst ####
+
+Ich habe auf der VM die maxmimale Anzahle von Processors eingestellt, nähmlich 8 Processoren.
+[](processor.png)
