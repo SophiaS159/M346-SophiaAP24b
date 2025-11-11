@@ -45,14 +45,25 @@ Ich vermute mal das mein System von Typ 1 ist. Dies ist jegedlich eine Vermutung
 Also dies sind meine folgende Werte.
 
 *Total Numbers of Cores/Processors:* 8 (4 performance and 4 efficiency)
+
 *RAM/Memory:* 16GB
 
+----
 #### VM angepasst ####
 
 **Processoren & RAM**
 
 Ich habe auf der VM die maxmimale Anzahle von Processors udn RAM eingestellt, nähmlich 8 Processoren und 16384MB. Und das VM kann nicht wirklich gestartet werden. Also hier ist ein Bild von der Einschränkung von Processoren & RAM.
 ![](Einschränkung.png)
+
+**Erklärung**
+
+Der Grund für die Einschränkung ist, weil ich habe der VM alle 16 GB Ram zugewisen und es nicht möglich war das VM sogar zu starten. Und weil die VM den gesamten Speicher benutzt, bleibt kein RAM mehr für macOS und andere Prozesse.
+
+Der Grund wieso es überhaupt möglich ist es so einzustellen ist, dass Visualisierungssoftware erlaubt Overcommitment(Ressourcen-Überbuchung). Also man geht davon aus... 
+
+- dass die VM nie gleichzeitig den kompletten zugewiesenen Speicher nutzt
+- dass sie notfalls komprimieren oder auf der Festplatte(Hardware) auslagern kann
 
 
 
