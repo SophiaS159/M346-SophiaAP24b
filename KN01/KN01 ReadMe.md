@@ -58,7 +58,7 @@ Ich habe auf der VM die maxmimale Anzahle von Processors udn RAM eingestellt, n�
 
 **Erklärung**
 
-Der Grund für die Einschränkung ist, weil ich habe der VM alle 16 GB Ram zugewisen und es nicht möglich war das VM sogar zu starten. Und weil die VM den gesamten Speicher benutzt, bleibt kein RAM mehr für macOS und andere Prozesse.
+Der Grund für die Einschränkung ist, weil ich habe der VM alle 16 GB Ram zugewisen und es nicht möglich war das VM sogar zu starten. Und weil die VM den gesamten Speicher benutzt, bleibt kein RAM mehr für macOS und andere Prozesse. Dadurch muss der Mac anfangen den Speicher auf die Festplatte auszulagern (sogenanntes Swapping). Das macht das System langsamer und kann zu Einfrieren oder Abstürzen führen.
 
 Der Grund wieso es überhaupt möglich ist es so einzustellen ist, dass Visualisierungssoftware erlaubt Overcommitment(Ressourcen-Überbuchung). Also man geht davon aus... 
 
