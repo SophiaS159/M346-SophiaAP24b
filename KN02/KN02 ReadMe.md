@@ -9,8 +9,9 @@
 ### A) Umgang mit AWS Kurs (20%)
 Habe ich geschafft und konnte mich navigieren. Jedoch hatte ich einen technischen Fehler und bin jetzt etwas hinter meiner Zeitplan.
 
-<br/>
 ----
+
+
 ### B) Instanz erstellen (40%)
 
 
