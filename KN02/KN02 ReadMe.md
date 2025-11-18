@@ -29,3 +29,9 @@ Anzahl des CPU's: 1
 
 
 ### C) Zugriff mit SSH-Key (40%)
+
+Sophia1 Key Message:
+![](Sophia1Key.png)
+
+Sophia2 Key Message:
+![](Sophia2Key.png)
