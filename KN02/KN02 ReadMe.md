@@ -35,3 +35,6 @@ Sophia1 Key Message:
 
 Sophia2 Key Message:
 ![](Sophia2Key.png)
+
+Verwendete Schlüssel Liste:
+![](List.png)
