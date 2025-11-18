@@ -13,7 +13,17 @@ Habe ich geschafft und konnte mich navigieren. Jedoch hatte ich einen technische
 
 
 ### B) Instanz erstellen (40%)
+Bilder der Instanz:
+![](InfoInstanz1.png)
+![](InfoInstanz2.png)
 
+Diskgrösse: 8
+
+Betriebssystem: Ubuntu Vers 24.04
+
+Grösse des RAM's: 1
+
+Anzahl des CPU's: 1
 
 ----
 
