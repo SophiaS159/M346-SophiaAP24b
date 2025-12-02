@@ -32,6 +32,8 @@
 **sudo systemctl restart mariadb.service & sudo systemctl restart apache2:**
 ![](restart.png)
 
+**git clone https://gitlab.com/ch-tbz-it/Stud/m346/m346scripts.git:**
+![](clonefromgitlab.png)
 
 <br/>
 
