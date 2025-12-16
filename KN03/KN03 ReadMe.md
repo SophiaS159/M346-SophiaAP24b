@@ -1,4 +1,4 @@
-# KN03: IaaS - Virtuelle Server
+# KN03: IaaS / AWS
 
 ## Lernziele
 - Sie machen die ersten Schritte mit IAAS.
