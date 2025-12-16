@@ -1,9 +1,11 @@
 # KN04: Cloud-init/ Automatisierung
 
 ## Lernziele
-- Sie machen die ersten Schritte mit IAAS mit AWS. Aber alles was wir hier umsetzen, bieten auch andere Public Cloud Anbieter (z.B. Microsoft Azure, Google)
-- Sie erlernen den Umgang mit AWS und virtuellen Servern (Instanzen)
-- Sie lernen wie Sie mit einem SSH Key umgehen, um auf die IAAS Umgebung / virtuelle Server zuzugreifen.
+
+- Wie lernen wie Sie die Installation von Servern automatisieren können und lernen dabei auch wie sie zur Fehlersuche vorgehen.
+- Sie lernen die YAML Syntax
+- Sie lernen Cloud-Init als Automatisierungstool kennen.
+- Sie trennen die Services aus der früheren Installation und lassen die Services miteinander kommunizieren.
 ----
 
 ### A) Umgang mit AWS Kurs (20%)
