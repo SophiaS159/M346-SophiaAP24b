@@ -1,4 +1,4 @@
-# KN04: laaS - Virtuelle Server
+# KN04: Cloud-init/ Automatisierung
 
 ## Lernziele
 - Sie machen die ersten Schritte mit IAAS mit AWS. Aber alles was wir hier umsetzen, bieten auch andere Public Cloud Anbieter (z.B. Microsoft Azure, Google)
