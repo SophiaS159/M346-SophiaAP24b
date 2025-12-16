@@ -1,4 +1,4 @@
-# KN02: laaS - Virtuelle Server
+# KN02: AWS / First Steps / Sicherheit
 
 ## Lernziele
 - Sie machen die ersten Schritte mit IAAS mit AWS. Aber alles was wir hier umsetzen, bieten auch andere Public Cloud Anbieter (z.B. Microsoft Azure, Google)
