@@ -7,6 +7,7 @@
 
 ### A) Kostenrechnung IAAS - Rehosting (60%)
 ### Screenshots für AWS
+![](AWS Database and Webserver.png)
 
 
 ----
