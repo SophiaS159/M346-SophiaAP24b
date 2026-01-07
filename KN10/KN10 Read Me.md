@@ -6,9 +6,12 @@
 ----
 
 ### A) Kostenrechnung IAAS - Rehosting (60%)
+### Screenshots für AWS
 
 
-## Azure Erklärung zur Auswahl der Komponenten
+----
+#### Azure Kosten in den Excel Files
+### Azure Erklärung zur Auswahl der Komponenten
 #### Webserver:
 - On-Premise: 1 Core, 2 GB RAM, 20 GB Speicher
 - Azure: B1ms VM, 1 vCPU, 2 GB RAM, S4 SSD 32 GB
