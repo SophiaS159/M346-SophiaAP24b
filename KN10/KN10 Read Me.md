@@ -1,40 +1,45 @@
-# KN02: laaS - Virtuelle Server
+# KN10: Kostenberechnung
 
 ## Lernziele
-- Sie machen die ersten Schritte mit IAAS mit AWS. Aber alles was wir hier umsetzen, bieten auch andere Public Cloud Anbieter (z.B. Microsoft Azure, Google)
-- Sie erlernen den Umgang mit AWS und virtuellen Servern (Instanzen)
-- Sie lernen wie Sie mit einem SSH Key umgehen, um auf die IAAS Umgebung / virtuelle Server zuzugreifen.
+- Sie lernen verschiedene Kostenrechner kennen und erstellen und vergleichen die Kosten von mehreren Providern.
+- Sie verstehen was die Möglichkeiten und Limitierungen der Migrationsmodelle sind.
 ----
 
-### A) Umgang mit AWS Kurs (20%)
-Habe ich geschafft und konnte mich navigieren. Jedoch hatte ich einen technischen Fehler und bin jetzt etwas hinter meiner Zeitplan.
+### A) Kostenrechnung IAAS - Rehosting (60%)
+
+
+## Azure Erklärung zur Auswahl der Komponenten
+#### Webserver:
+- On-Premise: 1 Core, 2 GB RAM, 20 GB Speicher
+- Azure: B1ms VM, 1 vCPU, 2 GB RAM, S4 SSD 32 GB
+- Abweichung: Disk minimal größer (32 GB statt 20 GB) → nötig wegen Azure-Standardgrößen
+- Backup: tägliche/wöchentliche/monatliche Retention, LRS
+
+
+#### Datenbankserver:
+- On-Premise: 2 Cores, 4 GB RAM, 100 GB Speicher
+- Azure: DC2ds v3 VM, 2 vCPU, 16 GB RAM, S10 SSD 128 GB
+- Abweichung: Mehr RAM und größere Disk für stabile DB-Performance
+- Backup: gleiche Retention, LRS
+#### Begründung:
+- Komponenten möglichst nah an On-Premise angepasst
+- Kleine Anpassungen (RAM/Disk) für Performance, Stabilität und Azure-Standards
+- Backup-Retention identisch übernommen für Datensicherheit
 
 ----
 
 
-### B) Instanz erstellen (40%)
-Bilder der Instanz:
-![](InfoInstanz1.png)
-![](InfoInstanz2.png)
-
-Diskgrösse: 8
-
-Betriebssystem: Ubuntu Vers 24.04
-
-Grösse des RAM's: 1
-
-Anzahl des CPU's: 1
+### B) Kostenrechnung PAAS - Replattforming (20%)
+BlaBla
 
 ----
 
 
-### C) Zugriff mit SSH-Key (40%)
+### C) Kostenrechnung SAAS - Repurchasing (10%)
+BlaBla
 
-Sophia1 Key Message:
-![](Sophia1Key.png)
+----
 
-Sophia2 Key Message:
-![](Sophia2Key.png)
 
-Verwendete Schlüssel Liste:
-![](List.png)
+### D) Interpretation der Resultate (10%)
+BlaBla
