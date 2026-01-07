@@ -8,6 +8,8 @@
 ### A) Kostenrechnung IAAS - Rehosting (60%)
 ### AWS Werte
 #### Webserver
+On-Premise: 1 Core, 2 GB RAM, 20 GB Speicher
+
 AWS Auswahl:
 Instance Type: t3.small
 - 2 vCPU
@@ -21,7 +23,14 @@ Laufzeit: 730 Stunden / Monat
 
 Storage:
 20 GB EBS (gp3)
+
+![](AWSSpecifications.png)
+![](AWSStorage.png)
+![](AWSEBWebserver.png)
+
 #### Database
+On-Premise: 2 Cores, 4 GB RAM, 100 GB Speicher
+
 AWS Auswahl:
 Instance Type: t3.medium
 - 2 vCPU
@@ -32,15 +41,14 @@ OS: Linux
 Storage:
 100 GB EBS (gp3)
 
-### Screenshots für AWS
-![](AWSSpecifications.png)
 ![](AWSInstances.png)
-![](AWSDatabaseandWebserverCosts.png)
 ![](AWSEBSDatabase.png)
-![](AWSEBWebserver.png)
-![](AWSStorage.png)
 
+### Kosten für AWS
+![](AWSDatabaseandWebserverCosts.png)
 
+### Erklärung der Benutzung dieser Komponenten
+Für das Rehosting auf AWS wurde Amazon EC2 verwendet. Der Webserver wird als EC2-Instanz vom Typ t3.small betrieben, da diese Instanz mit 2 vCPU und 2 GB RAM der bestehenden On-Premise-Infrastruktur am nächsten kommt. Der Datenbankserver nutzt eine t3.medium-Instanz mit 2 vCPU und 4 GB RAM. Als Betriebssystem wurde Linux (Ubuntu) gewählt, um zusätzliche Lizenzkosten zu vermeiden. Der Speicher wird über EBS General Purpose SSDs bereitgestellt. Backups werden mittels EBS Snapshots realisiert.
 
 ----
 #### Azure Kosten & Info in den Excel Files
