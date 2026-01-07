@@ -6,12 +6,44 @@
 ----
 
 ### A) Kostenrechnung IAAS - Rehosting (60%)
+### AWS Werte
+#### Webserver
+AWS Auswahl:
+Instance Type: t3.small
+- 2 vCPU
+- 2 GB RAM
+  
+Betriebssystem: Linux (Ubuntu)
+
+Nutzung: On-Demand
+
+Laufzeit: 730 Stunden / Monat
+
+Storage:
+20 GB EBS (gp3)
+#### Database
+AWS Auswahl:
+Instance Type: t3.medium
+- 2 vCPU
+- 4 GB RAM
+ 
+OS: Linux
+
+Storage:
+100 GB EBS (gp3)
+
 ### Screenshots für AWS
-![](AWS Database and Webserver.png)
+![](AWSSpecifications.png)
+![](AWSInstances.png)
+![](AWSDatabaseandWebserverCosts.png)
+![](AWSEBSDatabase.png)
+![](AWSEBWebserver.png)
+![](AWSStorage.png)
+
 
 
 ----
-#### Azure Kosten in den Excel Files
+#### Azure Kosten & Info in den Excel Files
 ### Azure Erklärung zur Auswahl der Komponenten
 #### Webserver:
 - On-Premise: 1 Core, 2 GB RAM, 20 GB Speicher
