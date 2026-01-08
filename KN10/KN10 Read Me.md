@@ -166,3 +166,27 @@ Folgende Zusatzkosten enstehen beispielweise durch:
 
 Manchmal zeigt man nur die höheren Kosten, für mehr Kunden, aber sie werden meistens versteckt angezeigt.
 
+#### Zoho CRM / Salesforce SaaS
+Der Aufwand ist gering:
+- Datenmigration
+- Benutzer-Schulung
+- Anpassung der Geschäftsprozesse an das neue System
+
+Kein Aufwand für:
+- Server
+- Updates
+- Backups
+- Skalierung
+Vorteil: Minimaler technischer Aufwand
+Nachteil: Abhängigkeit vom Anbieter, geringere Individualisierung
+
+#### Gesamteinschätzung
+IaaS ist kostengünstig in der Infrastruktur, aber teuer im Betrieb und Know-how.
+
+PaaS liegt kostenmäßig in der Mitte und reduziert den technischen Aufwand deutlich.
+
+SaaS ist am teuersten pro Benutzer, bietet aber den geringsten internen Aufwand.
+
+Für die Firma ist Zoho CRM die wirtschaftlichste Lösung, da sie die geringsten Betriebsaufwände verursacht und ausreichend Funktionalität für 30 Benutzer bietet.
+
+Heroku stellt einen guten Kompromiss dar, falls die bestehende CRM-Applikation beibehalten werden soll.
