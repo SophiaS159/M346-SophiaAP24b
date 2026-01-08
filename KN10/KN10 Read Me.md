@@ -109,7 +109,24 @@ Dieser Plan bietet ca. 4 GB RAM und 64 GB Speicher und ist vergleichbar mit dem 
 
 
 ### C) Kostenrechnung SAAS - Repurchasing (10%)
-BlaBla
+#### Zoho CRM
+##### Verwendetes Pricing:
+Zoho CRM – Professional Plan
+##### Begründung:
+Der Professional-Plan bietet alle wichtigen CRM-Funktionen wie Lead- und Kontaktmanagement, Automatisierungen sowie Berichte. Er ist für ein Unternehmen mit rund 30 Benutzern gut geeignet und bietet ein sehr gutes Preis-Leistungs-Verhältnis. Für kleinere und mittlere Firmen ist dieser Plan ausreichend, ohne unnötige Zusatzfunktionen.
+![](ZohoPrices.png)
+
+#### Salesforce Sales Cloud
+##### Verwendetes Pricing:
+Salesforce Sales Cloud – Professional Plan
+##### Begründung:
+Der Professional-Plan stellt im Vergleich zu günstigeren Salesforce-Plänen einen funktionsreichen Einstieg dar und bietet erweiterte Vertriebs- und Automatisierungsfunktionen. Höhere Editionen (Enterprise/Unlimited) wären für die Firmengröße überdimensioniert und deutlich teurer.
+![](SalesPricing.png)
+
+#### Auswahl / Empfehlung
+Ausgewählter Anbieter: Zoho CRM
+##### Begründung:
+Zoho CRM bietet für ähnliche Kernfunktionen deutlich geringere Kosten pro Benutzer als Salesforce. Für eine Firma mit 30 Nutzern ist Zoho CRM wirtschaftlicher und einfacher zu betreiben, während Salesforce vor allem für sehr große oder komplexe Organisationen Vorteile bietet.
 
 ----
 
