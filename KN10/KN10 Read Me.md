@@ -90,17 +90,17 @@ Heroku Dyno Standard-2X – 50 USD / Monat
 Der Standard-2X Dyno bietet 1 GB RAM und erhöhte Rechenleistung und eignet sich für den produktiven Betrieb einer CRM-Applikation mit ca. 30 Benutzern.
 Im Vergleich zum bisherigen On-Premise Webserver (1 Core, 2 GB RAM) entfällt die Server- und Betriebssystemverwaltung vollständig. Die geringere RAM-Menge wird durch die gemanagte Plattform und die Möglichkeit zur Skalierung ausgeglichen.
 
-![](blabla.png)
+![](HerokuDynosContainers.png)
 
 ----
 
 ### Datenbank (Heroku Postgres)
 #### Gewählte Komponente:
-Heroku Postgres Standard-0 – 50 USD / Monat
+Heroku Postgres Standard-0 – 200 USD / Monat
 
 Dieser Plan bietet ca. 4 GB RAM und 64 GB Speicher und ist vergleichbar mit dem bisherigen Datenbankserver. Wartung, Updates und Hochverfügbarkeit werden von Heroku übernommen. Der Speicher kann bei Bedarf jederzeit erweitert werden.
 
-![](blabla.png)
+![](HerokuDataServisesMD.png)
 
 ----
 
