@@ -135,6 +135,34 @@ Zoho CRM bietet für ähnliche Kernfunktionen deutlich geringere Kosten pro Benu
 
 ----
 
-
 ### D) Interpretation der Resultate (10%)
-BlaBla
+Alle 5 Varianten unterscheiden sich deutlich an ihren Kosten, da sie unterschiedliche Service Modelle(laaS,PaaS,SaaS) abdecken.
+
+
+#### laas(AWS & Azure)
+Folgende Zusatzkosten entstehen beispielweise durch:
+- Adminstrationsaufwand (Systemspflege,Updates,Security)
+- Monitoring und Logging
+- Datenverkehr
+- Langfristige Backup-Speicherungen
+- Notwendige Spezialkentnisse oder externe Dienstleister
+
+Aber die Kosten zwischen AWS und Azure unterscheiden sich:
+- Azure verwendet grössere Standart-VM-Grössen
+- Azure bei der Datenbank mehr RAM bereitstellt
+- Preisstruktur,Backup-Modelle und Storage Grössen sind unterschiedlich
+
+#### PaaS (Heroku)
+Keroku ist teurer als reines lassS, weil:
+
+- Betriebssystem, Patches, Skalierung und Backups inklusive sind
+- Hochverfügbarkeit und Wartung durch den Anbieter erfolgen
+
+Folgende Zusatzkosten enstehen beispielweise durch:
+
+- Reduzierter Administrationsaufwand
+- Weniger Ausfallrisiken
+- Schellere Bereitstellung
+
+Manchmal zeigt man nur die höheren Kosten, für mehr Kunden, aber sie werden meistens versteckt angezeigt.
+
