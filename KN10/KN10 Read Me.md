@@ -92,6 +92,9 @@ Im Vergleich zum bisherigen On-Premise Webserver (1 Core, 2 GB RAM) entfällt di
 
 ![](HerokuDynosContainers.png)
 
+#### Backups
+Backups sind bei Heroku Postgres bereits integriert (tägliche automatische Backups und Wiederherstellungsmöglichkeiten). Ein separates Backup-System ist nicht mehr notwendig.
+
 ----
 
 ### Datenbank (Heroku Postgres)
