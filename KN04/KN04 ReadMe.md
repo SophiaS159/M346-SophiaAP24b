@@ -62,8 +62,10 @@ Installiert das Paket „wget“ (Download-Tool für Dateien).
 
 
 ### B) SSH-Key und Cloud-init (15%)
-![](InfoInstanz1.png)
-
+![](DetailsInstanz.png)
+![](InfoInstance2.png)
+![](Commands.png)
+![](Log.png)
 
 ----
 
