@@ -61,7 +61,7 @@ Installiert das Paket „wget“ (Download-Tool für Dateien).
 ----
 
 
-### B) Instanz erstellen (40%)
+### B) SSH-Key und Cloud-init (15%)
 Bilder der Instanz:
 ![](InfoInstanz1.png)
 ![](InfoInstanz2.png)
