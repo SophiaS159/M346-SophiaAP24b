@@ -77,7 +77,7 @@ Ich habe das Template erstellt.
 
 ### D) Installation automatisieren (70%)
 #### Abgaben DB Server
-![](InfoInstanz1.png)
+![](grep.png)
 
 #### Abgaben Webserver
 ![](database.png)
