@@ -1,0 +1,21 @@
+#cloud-config
+users:
+  - name: ubuntu
+    groups: [users, admin]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcAlV9W9OGR7DrLRhf9lAy2eLvlKP5YJIvt+4lCfLyHkwwwEtWMZi9qM30zmym917xv87VxUKasKeRF+YUNnjB+LjLjQKnY4P++jaJ1WiQi/ghDKvxxzsdg24Y1WOGeuOYZjb+reNrpLaIEWr6DJfNGUh72A/JRBkjpzyLvlXuOCxDQGGigfXCH0q9tA95g5Uw43hFecxZmqgTaJFwJSbd3OlvSBLy1GBQ+CVNrHZcWzikTZOTcLexrXPuvi17VctpHRrXq7GfNQJ/lCe171qXfEZcj9yada3J7y1QUS6gps+hQqmLVuTcBTIQUW/4WCjkIFPer2zneCyHeNZ5E5ER aws-key
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key
+package_update: true
+packages:
+  - mariadb-server
+  - mariadb-client
+
+runcmd:
+  - systemctl enable --now mariadb
+  - mariadb -e "CREATE DATABASE IF NOT EXISTS webdb;"
+  - mariadb -e "CREATE USER IF NOT EXISTS 'webuser'@'%' IDENTIFIED BY 'webpass';"
+  - mariadb -e "GRANT ALL PRIVILEGES ON webdb.* TO 'webuser'@'%'; FLUSH PRIVILEGES;"
+  - sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/mariadb.conf.d/50-server.cnf
+  - systemctl restart mariadb
