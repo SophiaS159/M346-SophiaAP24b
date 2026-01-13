@@ -62,28 +62,21 @@ Installiert das Paket „wget“ (Download-Tool für Dateien).
 
 
 ### B) SSH-Key und Cloud-init (15%)
-Bilder der Instanz:
-![](InfoInstanz1.png)
-![](InfoInstanz2.png)
-
-Diskgrösse: 8
-
-Betriebssystem: Ubuntu Vers 24.04
-
-Grösse des RAM's: 1
-
-Anzahl des CPU's: 1
+![](DetailsInstanz.png)
+![](InfoInstance2.png)
+![](Commands.png)
+![](Log.png)
 
 ----
 
 
-### C) Zugriff mit SSH-Key (40%)
-
-Sophia1 Key Message:
+### C) Template (5%)
 ![](Sophia1Key.png)
 
-Sophia2 Key Message:
-![](Sophia2Key.png)
+----
 
-Verwendete Schlüssel Liste:
-![](List.png)
+### D) Installation automatisieren (70%)
+![](InfoInstanz1.png)
+
+
+
