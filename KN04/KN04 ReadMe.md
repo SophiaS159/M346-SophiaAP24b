@@ -71,12 +71,19 @@ Installiert das Paket „wget“ (Download-Tool für Dateien).
 
 
 ### C) Template (5%)
-![](Sophia1Key.png)
+Ich habe das Template erstellt.
 
 ----
 
 ### D) Installation automatisieren (70%)
+#### Abgaben DB Server
 ![](InfoInstanz1.png)
+
+#### Abgaben Webserver
+![](database.png)
+![](dbphp.png)
+![](info.png)
+![](testtest.png)
 
 
 
