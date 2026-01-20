@@ -27,10 +27,13 @@ Eine statische IP ist eine feste, öffentliche IP-Adresse, die sich nicht änder
 
 ### Private IP's
 DB: 172.31.50.10
+
 Web: 172.31.55.10
 
-----
+### IMG Subnets
+![](Subnets.png)
 
+----
 
 ### B) Objekte und Instanzen erstellen (70%)
 
