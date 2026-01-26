@@ -39,16 +39,21 @@ Web: 172.31.55.10
 
 #### Sicherheitsgruppen
 ##### Abgabe:
-
+![](SGDB.png)
+![](SGDBRules.png)
+![](SGWEB.png)
+![](SGWEbRules.png)
 
 
 #### Öffentliche, statische IP
 ##### Abgabe:
-
+![](elasticip.png)
 
 
 #### Instanzen erstellen
 ##### Abgabe:
-
+![](instancedb.png)
+![](instanceweb.png)
+![](instancesubnet.png)
 
 ----
