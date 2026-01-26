@@ -39,5 +39,13 @@ Web: 172.31.55.10
 
 #### Sicherheitsgruppen
 ##### Abgabe:
+![](SGDB.png)
+![](SGDBRules.png)
+![](SGWEB.png)
+![](SGWEBRules.png)
+
+
+#### Öffentliche, statische IP
+##### Abgabe:
 
 ----
